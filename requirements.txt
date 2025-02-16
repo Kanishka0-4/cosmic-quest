@@ -1,0 +1,10 @@
+Flask
+flask-cors
+PyPDF2
+langchain
+langchain-google-genai
+faiss-cpu
+python-dotenv
+google-generativeai
+app-secret-b0e5e2b217d6fdcb73e6877bb6261a0c835e87b4ba9d7b9fa74aa10d4a9efa25dc0eac29834d96972418ce87dfd719fc87c21c5659106534bb6c97c3777cea09e42c274297321de658ed93e967b92d254447e6c8580d135e1f6fbfaff70d97fc308a5dfa630482cb76b6fd73a3b84efd
+app-id-ff3e1f20-ca76-4e45-801f-f683f1d2ad47
