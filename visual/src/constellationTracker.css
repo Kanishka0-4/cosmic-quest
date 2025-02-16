@@ -1,0 +1,161 @@
+/* Base styles for the constellation page */
+.constellation-page {
+  min-height: 100vh;
+  padding: 2rem;
+  color: #e1e7ff;
+  background: linear-gradient(to bottom, rgba(0, 6, 20, 0.9) 0%, rgba(0, 18, 51, 0.9) 100%);
+}
+
+/* Page title styling */
+.constellation-page h1 {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+  color: #fff;
+  text-shadow: 0 0 10px rgba(135, 206, 250, 0.5);
+  font-weight: 600;
+}
+
+/* Container for the selection controls */
+.selector-container {
+  max-width: 800px;
+  margin: 0 auto 2rem;
+  padding: 2rem;
+  background: rgba(13, 18, 37, 0.8);
+  border-radius: 1rem;
+  border: 1px solid rgba(135, 206, 250, 0.2);
+  backdrop-filter: blur(10px);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+}
+
+/* Label styling */
+.selector-container label {
+  display: block;
+  margin: 1rem 0 0.5rem;
+  color: #87cefa;
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+/* Select and input styling */
+.selector-container select,
+.selector-container input {
+  width: 100%;
+  padding: 0.75rem;
+  margin-bottom: 1rem;
+  background: rgba(0, 6, 20, 0.8);
+  border: 1px solid rgba(135, 206, 250, 0.3);
+  border-radius: 0.5rem;
+  color: #fff;
+  font-size: 1rem;
+  transition: all 0.3s ease;
+}
+
+/* Hover and focus states for inputs */
+.selector-container select:hover,
+.selector-container input:hover,
+.selector-container select:focus,
+.selector-container input:focus {
+  border-color: rgba(135, 206, 250, 0.6);
+  box-shadow: 0 0 10px rgba(135, 206, 250, 0.2);
+  outline: none;
+}
+
+/* Button styling */
+.selector-container button {
+  width: 100%;
+  padding: 1rem;
+  margin-top: 1rem;
+  background: linear-gradient(45deg, #1e3a8a, #3b82f6);
+  border: none;
+  border-radius: 0.5rem;
+  color: #fff;
+  font-size: 1.1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+/* Button hover and active states */
+.selector-container button:hover {
+  background: linear-gradient(45deg, #1e40af, #60a5fa);
+  box-shadow: 0 0 15px rgba(59, 130, 246, 0.5);
+  transform: translateY(-2px);
+}
+
+.selector-container button:active {
+  transform: translateY(0);
+}
+
+/* Error message styling */
+.error {
+  color: #ff6b6b;
+  text-align: center;
+  padding: 1rem;
+  margin: 1rem 0;
+  background: rgba(255, 107, 107, 0.1);
+  border-radius: 0.5rem;
+  border: 1px solid rgba(255, 107, 107, 0.3);
+}
+
+/* Star chart container */
+.star-chart {
+  max-width: 1000px;
+  margin: 2rem auto;
+  padding: 1rem;
+  background: rgba(13, 18, 37, 0.8);
+  border-radius: 1rem;
+  border: 1px solid rgba(135, 206, 250, 0.2);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+  backdrop-filter: blur(10px);
+}
+
+/* Star chart image */
+.star-chart img {
+  width: 100%;
+  height: auto;
+  border-radius: 0.5rem;
+  display: block;
+}
+
+/* Loading state animation */
+@keyframes pulse {
+  0% { opacity: 0.6; }
+  50% { opacity: 1; }
+  100% { opacity: 0.6; }
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .constellation-page {
+    padding: 1rem;
+  }
+
+  .constellation-page h1 {
+    font-size: 2rem;
+  }
+
+  .selector-container {
+    padding: 1rem;
+  }
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: rgba(13, 18, 37, 0.8);
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(135, 206, 250, 0.3);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(135, 206, 250, 0.5);
+}

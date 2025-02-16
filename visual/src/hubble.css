@@ -1,0 +1,86 @@
+.bulletin-container {
+    position: fixed;
+    top: 14%;
+    left: 5%;
+    width: 23.5%;
+    z-index: 100;
+    margin-left: 0;
+    border-radius: 15px;
+    box-shadow: 0 4px 25px rgba(82, 156, 255, 0.25);
+  }
+  
+  .bulletin-box {
+    background: linear-gradient(145deg, #131339, #1e1e4f);
+    border-radius: 15px;
+    box-shadow: 0 4px 25px rgba(82, 156, 255, 0.25);
+    padding: 10px;
+    height: 80vh;  /* Adjust to control the height of the box */
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .bulletin-image {
+    width: 100%;
+    height: auto;
+    position: relative;
+  }
+  
+  .bulletin-image img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 8px;
+  }
+  
+  .bulletin-title {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    font-size: 25px;
+    color: white;
+    font-weight: bold;
+    z-index: 10;
+  }
+  
+  .bulletin-t {
+    margin-top: 20px;
+    padding: 0 10px;
+    z-index: 10;
+  }
+  
+  .bulletin-t h3 {
+    text-decoration: underline;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0;
+  }
+  
+  .bulletin-text {
+    color: white;
+    padding: 10px;
+    text-align: left;
+    flex: 1;
+    overflow: hidden;  /* Hide scrollbar */
+    margin-top: 10px;
+    position: relative;
+    max-height: calc(80vh - 100px);  /* Limit height for the description area */
+  }
+  
+  .bulletin-text p {
+    margin: 5px 0;
+    font-size: 14px;
+    white-space: normal;  /* Allow wrapping */
+    line-height: 1.6;  /* Adjust line height for better readability */
+    animation: scrollText 30s linear infinite;  /* Animation for scrolling */
+  }
+  
+  @keyframes scrollText {
+    0% {
+      transform: translateY(100%);
+    }
+    100% {
+      transform: translateY(-100%);
+    }
+  }
+  

@@ -1,0 +1,69 @@
+/* Reset margin and padding for the entire page */
+body, html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden; /* Prevent horizontal scrolling if not needed */
+}
+
+/* Ensure that the starfield and background layers are in the correct position */
+.starfield-container {
+    position: absolute; /* Use absolute positioning to ensure it stays behind everything */
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100%; /* Full height of the page */
+    z-index: 1; /* Ensure it's behind other content */
+   
+    background: #000; /* Background for starfield (or color of your choice) */
+}
+
+/* Particles.js shooting stars layer */
+.shooting-stars-layer {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100%;
+    z-index: 2; /* Layer above the starfield but below content */
+    
+}
+
+/* Content section */
+.content {
+    position: relative;  /* Allow content to scroll over the background */
+    z-index: 3;  /* Ensure the content stays on top of the background */
+    padding: 20px;
+    color: white;
+    min-height: 2000px;  /* Ensure the page has enough height to allow scrolling */
+}
+
+/* Bulletins and other components */
+.bulletin-container {
+    position: absolute;
+    top: 10%; /* Position it from the top */
+    left: 5%;  /* Position it from the left side */
+    width: 25%;
+    z-index: 100;  /* Keep it above all background elements */
+}
+
+.bulletin-box {
+    background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent background */
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);  /* Add shadow for depth */
+    padding: 15px;
+}
+
+.bulletin-image img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.bulletin-text {
+    color: white;
+    padding: 10px;
+    text-align: left;
+}

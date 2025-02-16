@@ -1,0 +1,35 @@
+/* Styles for the GIF slider */
+.slider-container {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 ;
+    overflow: hidden;
+    border-radius: 10px;
+    position: absolute;
+    top: 50%; /* Same vertical alignment as .funfact-corner */
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 50; /* Layer below .funfact-corner */
+    box-shadow: 0 4px 25px rgba(82, 156, 255, 0.25);
+}
+
+
+.slider {
+    display: flex;  /* Align images horizontally */
+    transition: transform 0.5s ease-in-out;  /* Smooth transition */
+}
+
+.slider-item {
+    flex: 0 0 100%;  /* Ensure each image takes up 100% width of the container */
+    display: flex;
+    justify-content: center;  /* Center image horizontally */
+    align-items: center;  /* Center image vertically */
+}
+
+.slider img {
+    width: 100%;  /* Image should fill the container */
+    height: auto;  /* Maintain aspect ratio */
+    object-fit: cover;  /* Ensure image covers the container */
+}
+
+

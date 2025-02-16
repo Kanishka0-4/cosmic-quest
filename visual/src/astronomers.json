@@ -1,0 +1,205 @@
+[
+    {
+      "name": "Isaac Newton",
+      "portrait": "https://www.nmspacemuseum.org/wp-content/uploads/2019/03/sir-isaac-newton-793x1024.jpg",
+      "field": "Gravity Genius",
+      "contributions": "Discovered gravity after watching an apple fall—basically the original mind-blown moment.",
+      "funFact": "Invented the first super-cool reflecting telescope to see far-off stuff in space.",
+      "timeline": "1643–1727"
+    },
+    {
+      "name": "Albert Einstein",
+      "portrait": "https://1.bp.blogspot.com/-eeYOiXwnehw/X3Rvi4Od0RI/AAAAAAAAA4U/94PRVjVnyKUE_R5Z5B05_IJqiDK2gnA2ACLcBGAsYHQ/s1920/Albert%2BEinstein%2Bneelcrew.jpg",
+      "field": "Spacetime Wizard",
+      "contributions": "Showed us that time and space are like one big cosmic stretchy fabric.",
+      "funFact": "Predicted 'ripples in spacetime'—gravitational waves—long before we could even detect them!",
+      "timeline": "1879–1955"
+    },
+    {
+      "name": "Edwin Hubble",
+      "portrait": "https://cdn.britannica.com/60/198560-050-11888CDF/Edwin-Hubble-1931.jpg",
+      "field": "Galaxy Discoverer",
+      "contributions": "Proved that galaxies are zooming away from us—space is expanding!",
+      "funFact": "The Hubble Space Telescope is named after this legendary explorer of the universe.",
+      "timeline": "1889–1953"
+    },
+    {
+      "name": "Sally Ride",
+      "portrait": "https://airandspace.si.edu/sites/default/files/styles/body_large/public/2021-06/S85-41007~medium.jpg?itok=PQQOCcWw",
+      "field": "Space Trailblazer",
+      "contributions": "First American woman to rocket into space and inspire generations.",
+      "funFact": "Loved tennis almost as much as she loved space!",
+      "timeline": "1951–2012"
+    },
+    {
+      "name": "Neil Armstrong",
+      "portrait": "https://cdn.britannica.com/72/163272-050-1C5BC2B7/Neil-Armstrong-American.jpg",
+      "field": "Moonwalker",
+      "contributions": "First human to set foot on the Moon with the iconic line: 'One small step for man, one giant leap for mankind.'",
+      "funFact": "He carried a piece of the Wright Brothers' plane to the Moon.",
+      "timeline": "1930–2012"
+    },
+    {
+      "name": "Carl Sagan",
+      "portrait": "https://www.futuroprossimo.it/wp-content/uploads/2022/10/Carl-Sagan-previsione-1.jpg",
+      "field": "Cosmic Storyteller",
+      "contributions": "Brought the universe to our living rooms with 'Cosmos' and explained life on other planets.",
+      "funFact": "Created a 'Golden Record' with sounds of Earth for aliens to find.",
+      "timeline": "1934–1996"
+    },
+    {
+      "name": "Valentina Tereshkova",
+      "portrait": "https://historia.nationalgeographic.com.es/medio/2019/06/13/valentina-tereshkova-astronauta_a33a0eb4_1400x912.jpg",
+      "field": "Space Pioneer",
+      "contributions": "First woman ever to fly into space, paving the way for others.",
+      "funFact": "She was a textile worker before becoming a cosmonaut.",
+      "timeline": "1937–Present"
+    },
+    {
+      "name": "Katherine Johnson",
+      "portrait": "https://static01.nyt.com/images/2020/02/26/obituaries/24Johnson1/merlin_157899726_f670c425-adb2-46f6-9c15-bc356754fb87-superJumbo.jpg?quality=90&auto=webp",
+      "field": "Human Computer",
+      "contributions": "Calculated the trajectories that made the Moon landing possible.",
+      "funFact": "Her math was so good, astronauts refused to fly without her calculations.",
+      "timeline": "1918–2020"
+    },
+    {
+      "name": "Stephen Hawking",
+      "portrait": "https://images.seattletimes.com/wp-content/uploads/2018/03/Britain_Interstellar_Live_210008.jpg?d=780x1124",
+      "field": "Black Hole Genius",
+      "contributions": "Showed how black holes can 'leak' energy—mind-blowing stuff.",
+      "funFact": "Had a cameo on 'The Simpsons' and loved sci-fi.",
+      "timeline": "1942–2018"
+    },
+    {
+        "name": "Dr. Vikram Sarabhai",
+        "portrait": "https://bsmedia.business-standard.com/_media/bs/img/about-page/1565607872.jpg",
+        "field": "Father of Indian Space Program",
+        "contributions": "Founded ISRO, which put India on the map of space exploration.",
+        "funFact": "Believed that space science could be used for national development.",
+        "timeline": "1919–1971"
+    },
+    {
+      "name": "Galileo Galilei",
+      "portrait": "https://cdn.history.com/sites/2/2015/10/list-galileo-_Portrait_of_Galileo_Galilei_1636.jpg",
+      "field": "Father of Astronomy",
+      "contributions": "Invented the telescope that could see space like never before.",
+      "funFact": "Spotted Jupiter's moons and proved not everything revolves around Earth.",
+      "timeline": "1564–1642"
+    },
+    {
+      "name": "Nicolaus Copernicus",
+      "portrait": "https://images.deepai.org/chat-style-image/d44107f6b1ec4df9a6fc2e245b999435/nicolaus-copernicus.jpg",
+      "field": "Solar System Rebel",
+      "contributions": "Proved that the Sun is the center of the solar system, not Earth.",
+      "funFact": "Kept his groundbreaking ideas secret until the end of his life.",
+      "timeline": "1473–1543"
+    },
+    {
+      "name": "Johannes Kepler",
+      "portrait": "https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2000/10/johannes_kepler_1571-1630/9233019-6-eng-GB/Johannes_Kepler_1571-1630_pillars.gif",
+      "field": "Orbit Master",
+      "contributions": "Figured out how planets move in ellipses, not perfect circles.",
+      "funFact": "Used his mom's trial for witchcraft as inspiration to study science.",
+      "timeline": "1571–1630"
+    },
+    {
+      "name": "Buzz Aldrin",
+      "portrait": "https://cdn.britannica.com/55/69055-050-8D293FF9/Buzz-Aldrin-1969.jpg",
+      "field": "Moonwalking Legend",
+      "contributions": "Second human to walk on the Moon during Apollo 11.",
+      "funFact": "His mother’s maiden name was Moon.",
+      "timeline": "1930–Present"
+    },
+    {
+      "name": "Yuri Gagarin",
+      "portrait": "https://whfpdubai.com/sites/default/files/styles/juicebox_large/public/2020-03/235137877.jpg?itok=qU7ai0sJ",
+      "field": "First Space Explorer",
+      "contributions": "First human to orbit Earth, opening the door to space travel.",
+      "funFact": "His spacecraft, Vostok 1, had no manual controls.",
+      "timeline": "1934–1968"
+    },
+    {
+      "name": "Rakesh Sharma",
+    "portrait": "https://im.indiatimes.in/media/content/2016/Jan/sharma1_1452686056.jpg",
+    "field": "First Indian in Space",
+    "contributions": "First Indian astronaut to travel to space aboard Soyuz T-11.",
+    "funFact": "When asked by the then Prime Minister, Indira Gandhi, how India looked from space, he said, 'Saare Jahan Se Achha' (Better than the entire world!).",
+    "timeline": "1949–Present"
+    },
+    {
+        "name": "Kalpana Chawla",
+        "portrait": "https://cdn.web.uta.edu/-/media/project/website/engineering/general-images/kc-portrait.ashx?la=en&revision=e98f55ed-7db1-4405-9507-1e5e26f9a2c2&hash=1A8FA5E6DB692CB25A31C4CC7AEFEB95",
+        "field": "Astronaut",
+        "contributions": "First woman of Indian origin in space and the first person of Indian origin in space twice.",
+        "funFact": "She was the mission specialist on the ill-fated Columbia shuttle mission.",
+        "timeline": "1961–2003"
+    },
+    {
+      "name": "Maria Mitchell",
+      "portrait": "https://i.pinimg.com/originals/93/9f/2b/939f2beb9c9073729ed16c9673e0586a.jpg",
+      "field": "Astronomer & Educator",
+      "contributions": "First woman to discover a comet.",
+      "funFact": "She was a teacher and a great advocate for women in science.",
+      "timeline": "1818–1889"
+    },
+    {
+        "name": "Dr. K. Sivan",
+        "portrait": "https://www.postoast.com/wp-content/uploads/2019/09/Kailasavadivoo-Sivan-Facts.jpg",
+        "field": "Chairman of ISRO",
+        "contributions": "Led the successful Chandrayaan-2 mission to explore the Moon and launched over 200 satellites in one mission.",
+        "funFact": "Known as the 'Rocket Man' of India for his work on satellite launches.",
+        "timeline": "1957–Present"
+    },
+    {
+      "name": "Frank Drake",
+      "portrait": "https://images.theconversation.com/files/482781/original/file-20220905-2133-j7iuee.jpg?ixlib=rb-1.1.0&q=30&auto=format&w=600&h=775&fit=crop&dpr=2",
+      "field": "SETI Founder",
+      "contributions": "Created the Drake Equation to estimate the number of communicative civilizations in the galaxy.",
+      "funFact": "Started the search for extraterrestrial intelligence (SETI).",
+      "timeline": "1930–Present"
+    },
+    {
+      "name": "Hermann Oberth",
+      "portrait": "https://m.media-amazon.com/images/M/MV5BMjcwMWRkM2YtYjAxOC00MTljLThjY2MtZDZhZDFmZjQwYjQ4XkEyXkFqcGdeQXVyNjUxMjc1OTM@._V1_.jpg",
+      "field": "Rocketry Pioneer",
+      "contributions": "Father of modern rocketry and spaceflight.",
+      "funFact": "His book 'The Rocket into Planetary Space' inspired future space scientists.",
+      "timeline": "1894–1989"
+    },
+    {
+        "name": "Dr. APJ Abdul Kalam",
+        "portrait": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/A._P._J._Abdul_Kalam_in_2008.jpg/1200px-A._P._J._Abdul_Kalam_in_2008.jpg",
+        "field": "Space Scientist, Former President of India",
+        "contributions": "Played a key role in India's missile defense systems and space technology advancements. Instrumental in the development of the Polar Satellite Launch Vehicle (PSLV) and the successful launch of India's first satellite, Rohini.",
+        "funFact": "Known as the 'Missile Man of India', he was also the 11th President of India, inspiring millions of students to dream big.",
+        "timeline": "1931–2015"
+    },
+    {
+            "name": "William Herschel",
+            "portrait": "https://wp.sunderland.ac.uk/seagullcity/wp-content/uploads/sites/44/2017/05/29b-Herschel-768x1022.jpg",
+            "field": "Astronomy",
+            "contributions": "Discovered the planet Uranus and its moons; contributed to the understanding of nebulae and the Milky Way.",
+            "funFact": "Built the largest telescope of his time, which allowed him to make groundbreaking discoveries.",
+            "timeline": "1738–1822"
+          
+    },
+    {
+      "name": "Vera Rubin",
+      "portrait": "https://www.astrobitacora.com/wp-content/uploads/2018/03/Vera-Rubin-2-768x1132.jpg",
+      "field": "Dark Matter Detective",
+      "contributions": "Showed that there’s more mass in galaxies than we can see.",
+      "funFact": "Her discovery opened up new mysteries about dark matter.",
+      "timeline": "1928–2016"
+    },
+    {
+        "name": "Roger Penrose",
+        "portrait": "https://www.nobelprize.org/images/penrose-111758-portrait-medium.jpg",
+        "field": "Theoretical Physics, Mathematics, and Cosmology",
+        "contributions": "Best known for his work on black holes, the Penrose diagram, and the Penrose singularity theorem.",
+        "funFact": "He collaborated with Stephen Hawking on the theory of black holes and their singularities.",
+        "timeline": "1931–Present"
+      }
+      
+  ]
+  
